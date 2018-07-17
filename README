@@ -1,0 +1,37 @@
+Introduction
+----------------
+
+This here program is a general purpose "start menu". 
+
+It attempts to resemble it's counterpart that was shipped by a major proprietary software company with it's operating system released way back in 2001. It should help people who want to clone the look of that operating system, when coupled with corresponding Gtk+ and metacity themes.
+
+This "menu" does not depend on the panel, or any other component of the desktop, that is, it is a standalone application. This means that it can be used with any window manager, and that at the same time it has features that enable it to be incorporated into a desktop seamlessly.
+
+How to use:
+
+1. Launch the start menu:
+    $ start-menu
+     
+    You can also set your desktop to load it at startup.
+
+2. Whenever you want to pop up the menu, hit it with a SIGUSER1
+    signal:
+    $ killall -SIGUSR1 start-menu
+
+Integration with GNOME
+
+1. You can configure gnome-session to automatically load it at
+   startup. Go to Desktop -> Preferences -> More Preferences -> Session
+
+2. Make a "button" for the menu on gnome-panel. Right click on an empty
+   space on the panel, click "Add to panel" and then select "Custom 
+   Application Launcher". Enter "Start Menu" as name and 
+   "killall -SIGUSR1 start-menu" as command, without the 
+   quotes.
+   
+3. Add a keyboard shortcut. Go to Desktop -> Preferences -> Keyboard Shortcuts
+   and set your favorite shortcut to the command "killall -SIGUSR1 start-menu"
+
+
+Integration for other desktops might be similar.
+   

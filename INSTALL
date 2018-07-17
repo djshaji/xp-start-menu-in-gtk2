@@ -1,0 +1,19 @@
+The start-menu depends on Gtk+-2.0, and nothin' else.
+
+To compile, do
+$ make
+
+To install ( locally, does NOT need root permission )
+$ make install
+
+
+NOTE: Please DO NOT INSTALL AS ROOT. The start-menu is
+designed to work locally for individual users. Install
+only as the user you want to use it as. We do not take
+the name of root in vain.
+
+To run, do
+$ start-menu
+
+To popup menu, do
+$ killall -SIGUSR1 start-menu

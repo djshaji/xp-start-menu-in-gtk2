@@ -1,0 +1,115 @@
+[Firefox]
+icon=www.png
+name=Mozilla Firefox
+command=firefox
+is_separator=false
+column=1
+
+[EMail]
+icon=Email.png
+name=Evolution
+command=evolution
+is_separator=false
+column=1
+
+[Space69]
+is_separator=true
+column=1
+[Terminal]
+icon=Terminal.png
+name=Terminal
+command=xterm
+is_separator=false
+column=1
+[MPlayer]
+icon=MPlayer.png
+name=MPlayer
+command=gmplayer
+is_separator=false
+column=1
+[Spacer2]
+icon=Terminal.png
+name=Terminal
+command=xterm
+is_separator=true
+column=1
+[Swap]
+icon=bookmarks_list_add.png
+name=gThumb
+command=gthumb
+is_separator=false
+column=1
+[Assistant]
+icon=About April.png
+name=About GNOME
+command=gnome-about
+is_separator=false
+column=1
+[LocalHardDrives]
+icon=Local Hard Drives.png
+name=Network
+command=nautilus network:///
+is_separator=false
+column=2
+[Root]
+icon=Unix System Root.png
+name=Unix System Root
+command=nautilus /
+is_separator=false
+column=2
+[Home1]
+icon=CD Recorder.png
+name=CD Recorder
+command=nautilus burn:///
+is_separator=false
+column=2
+[Home2]
+icon=gadu.png
+name=Start Here
+command=nautilus start-here:///
+is_separator=false
+column=2
+[Computer]
+icon=Computer.png
+name=Computer
+command=nautilus computer:///
+is_separator=false
+column=2
+[Spacer3]
+is_separator=true
+column=2
+[Home]
+icon=Documents.png
+name=Documents
+command=nautilus ~
+is_separator=false
+column=2
+[favs]
+icon=Favorites.png
+name=Themes
+command=nautilus themes:///
+is_separator=false
+column=2
+[Spacer4]
+is_separator=true
+column=2
+[Control]
+icon=Control Center.png
+name=Control Center
+command=nautilus system-settings:///
+is_separator=false
+column=2
+[task]
+icon=Task Manager.png
+name=Task Manager
+command=gnome-system-monitor
+is_separator=false
+column=2
+[logo]
+[BackgroundColor]
+red=20560
+blue=55255
+green=35466
+[shutdown]
+command=mplayer
+
